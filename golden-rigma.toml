@@ -2,65 +2,69 @@
 # URL: https://github.com/shved/golden-rigma
 
 type = "gold"
-constant = "harvest_gold"
-number = "silver"
+constant = "harvest-gold"
+number = "harvest-gold"
 string = "harvest-gold"
 comment = "slate-gray"
 variable = "gold"
-"variable.builtin" = "silver"
-"variable.parameter" = "silver"
-"variable.property" = "silver"
-punctuation = "silver"
-"punctuation.delimiter" = "silver"
-"punctuation.bracket" = "silver"
+"variable.builtin" = "snow"
+"variable.parameter" = "snow"
+"variable.property" = "snow"
+punctuation = "snow"
+"punctuation.delimiter" = "snow"
+"punctuation.bracket" = "snow"
 keyword = "snow"
-operator = "silver"
-function = "silver"
-"function.builtin" = "silver"
+operator = "snow"
+function = "snow"
+"function.builtin" = "snow"
 "function.macro" = "snow"
 tag = "harvest-gold"
 namespace = "gold"
 attribute = "gold"
 constructor = "gold"
 module = "gold"
-special = "silver"
+special = "snow"
 
 "ui.background" = { bg = "darker" }
 "ui.cursor" = { fg = "gold", bg = "dark" }
 "ui.cursor.match" = { fg = "gold", bg = "dark" }
-"ui.cursor.insert" = { fg = "gold", bg = "dark" }
-"ui.cursor.select" = { fg = "silver", bg = "gold" }
-"ui.linenr" = "dark-golden-rod"
+"ui.cursor.insert" = { fg = "gold", bg = "dark", modifiers = ["slow_blink"] }
+"ui.cursor.select" = { fg = "snow", bg = "gold" }
+"ui.linenr" = "slate-gray"
 "ui.linenr.selected" = { fg = "dark-orange" }
-"ui.statusline" = { fg = "silver", bg = "dark" }
+"ui.statusline" = { fg = "snow", bg = "dark" }
 "ui.statusline.inactive" = { fg = "dim", bg = "dark" }
-"ui.popup" = { fg = "silver", bg = "dim" }
-"ui.window" = { fg = "silver", bg = "dim" }
-"ui.help" = { fg = "silver", bg = "dim" }
-"ui.text" = "silver"
-"ui.text.focus" = "ash"
-"ui.menu" = { fg = "silver", bg = "dark" }
-"ui.menu.selected" = { fg = "ash", bg = "dim" }
+"ui.popup" = { fg = "snow", bg = "dim" }
+"ui.window" = { fg = "snow", bg = "dim" }
+"ui.help" = { fg = "snow", bg = "dim" }
+"ui.text" = "snow"
+"ui.text.focus" = "silver"
+"ui.menu" = { fg = "snow", bg = "dark" }
+"ui.menu.selected" = { fg = "silver", bg = "dim" }
 "ui.selection" = { bg = "steel" }
 "ui.virtual.whitespace" = "steel"
 "ui.virtual.ruler" = { bg = "steel" }
 "ui.virtual.inlay-hint" = { fg = "steel", modifiers = ["italic"] }
 
-hint = "blue2"
+hint = "royal-blue"
 info = "gold"
 warning = "dark-orange"
 error = "lilly"
 
-# "diagnostic.hint" = { underline = { style = "curl", color = "blue" } }
-# "diagnostic.info" = { underline = { style = "curl", color = "aqua" } }
-# "diagnostic.warning" = { underline = { style = "curl", color = "yellow" } }
-# "diagnostic.error" = { underline = { style = "curl", color = "nasty-red" } }
-# "diagnostic.unnecessary" = { modifiers = ["dim"] }
-# "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"diagnostic.hint" = { underline = { style = "curl", color = "royal-blue" } }
+"diagnostic.info" = { underline = { style = "curl", color = "gold" } }
+"diagnostic.warning" = { underline = { style = "curl", color = "dark-orange" } }
+"diagnostic.error" = { underline = { style = "curl", color = "lilly" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
 "diff.plus" = { fg = "green" }
 "diff.delta" = { fg = "tiger" }
 "diff.minus" = { fg = "berberis" }
+
+"ui.statusline.normal" = { bg = "bilberrie" }
+"ui.statusline.insert" = { bg = "lilly" }
+"ui.statusline.select" = { bg = "lotus" }
 
 # "markup.heading" = { fg = "purple", modifiers = ["bold"] }
 # "markup.list" = "cyan"
@@ -75,17 +79,19 @@ error = "lilly"
 [palette]
 gold = "#FFD700"
 snow = "#FFFAFA"
-ash = "#C0C0C0"
-silver = "#A9A9A9"
+silver = "#C0C0C0"
 dim = "#808080"
 dark = "#666666"
 darker = "#333333"
-lilly = "#FF6347"
+
 bilberrie = "#4169E1"
+lilly = "#FF6347"
 lotus = "#C71585"
+
 tiger = "#FFA500"
 berberis = "#DC143C"
 green = "#228B22"
+
 golden-rod = "#DAA520"
 harvest-gold = "#DA9100"
 sea-shell = "#FFF5EE"
@@ -94,7 +100,7 @@ honey = "#CB8E00"
 white-smoke = "#F5F5F5"
 steel = "#B0C4DE"
 light-yellow = "#FFFFE0"
-blue1 = "#4169E1"
+royal-blue = "#4169E1"
 blue2 = "#1E90FF"
 coral1 = "#FF7F50"
 deep-pink = "#FF1493"
