@@ -1,0 +1,111 @@
+# Golden Rigma coloscheme named after a ravishing book by Vsevolod Sysoev.
+# URL: https://github.com/shved/golden-rigma
+
+type = "gold"
+constant = "harvest_gold"
+number = "silver"
+string = "harvest-gold"
+comment = "slate-gray"
+variable = "gold"
+"variable.builtin" = "silver"
+"variable.parameter" = "silver"
+"variable.property" = "silver"
+punctuation = "silver"
+"punctuation.delimiter" = "silver"
+"punctuation.bracket" = "silver"
+keyword = "snow"
+operator = "silver"
+function = "silver"
+"function.builtin" = "silver"
+"function.macro" = "snow"
+tag = "harvest-gold"
+namespace = "gold"
+attribute = "gold"
+constructor = "gold"
+module = "gold"
+special = "silver"
+
+"ui.background" = { bg = "darker" }
+"ui.cursor" = { fg = "gold", bg = "dark" }
+"ui.cursor.match" = { fg = "gold", bg = "dark" }
+"ui.cursor.insert" = { fg = "gold", bg = "dark" }
+"ui.cursor.select" = { fg = "silver", bg = "gold" }
+"ui.linenr" = "dark-golden-rod"
+"ui.linenr.selected" = { fg = "dark-orange" }
+"ui.statusline" = { fg = "silver", bg = "dark" }
+"ui.statusline.inactive" = { fg = "dim", bg = "dark" }
+"ui.popup" = { fg = "silver", bg = "dim" }
+"ui.window" = { fg = "silver", bg = "dim" }
+"ui.help" = { fg = "silver", bg = "dim" }
+"ui.text" = "silver"
+"ui.text.focus" = "ash"
+"ui.menu" = { fg = "silver", bg = "dark" }
+"ui.menu.selected" = { fg = "ash", bg = "dim" }
+"ui.selection" = { bg = "steel" }
+"ui.virtual.whitespace" = "steel"
+"ui.virtual.ruler" = { bg = "steel" }
+"ui.virtual.inlay-hint" = { fg = "steel", modifiers = ["italic"] }
+
+hint = "blue2"
+info = "gold"
+warning = "dark-orange"
+error = "lilly"
+
+# "diagnostic.hint" = { underline = { style = "curl", color = "blue" } }
+# "diagnostic.info" = { underline = { style = "curl", color = "aqua" } }
+# "diagnostic.warning" = { underline = { style = "curl", color = "yellow" } }
+# "diagnostic.error" = { underline = { style = "curl", color = "nasty-red" } }
+# "diagnostic.unnecessary" = { modifiers = ["dim"] }
+# "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+"diff.plus" = { fg = "green" }
+"diff.delta" = { fg = "tiger" }
+"diff.minus" = { fg = "berberis" }
+
+# "markup.heading" = { fg = "purple", modifiers = ["bold"] }
+# "markup.list" = "cyan"
+# "markup.bold" = { fg = "orange", modifiers = ["bold"] }
+# "markup.italic" = { fg = "yellow", modifiers = ["italic"] }
+# "markup.strikethrough" = { modifiers = ["crossed_out"] }
+# "markup.link.url" = "cyan"
+# "markup.link.text" = "pink"
+# "markup.quote" = { fg = "yellow", modifiers = ["italic"] }
+# "markup.raw" = { fg = "fg" }
+
+[palette]
+gold = "#FFD700"
+snow = "#FFFAFA"
+ash = "#C0C0C0"
+silver = "#A9A9A9"
+dim = "#808080"
+dark = "#666666"
+darker = "#333333"
+lilly = "#FF6347"
+bilberrie = "#4169E1"
+lotus = "#C71585"
+tiger = "#FFA500"
+berberis = "#DC143C"
+green = "#228B22"
+golden-rod = "#DAA520"
+harvest-gold = "#DA9100"
+sea-shell = "#FFF5EE"
+ivory = "#FFFFF0"
+honey = "#CB8E00"
+white-smoke = "#F5F5F5"
+steel = "#B0C4DE"
+light-yellow = "#FFFFE0"
+blue1 = "#4169E1"
+blue2 = "#1E90FF"
+coral1 = "#FF7F50"
+deep-pink = "#FF1493"
+sky-blue = "#00BFFF"
+dark-orchid = "#9932CC"
+orchid = "#DA70D6"
+salmon = "#FA8072"
+crimson-red = "#DC143C"
+blue-violet = "#8A2BE2"
+yellow-green = "#9ACD32"
+burly-wood = "#DEB887"
+dark-golden-rod = "#B8860B"
+dark-orange = "#FF8C00"
+slate-gray = "#708090"
