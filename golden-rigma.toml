@@ -31,7 +31,7 @@ special = "snow"
 "ui.cursor.insert" = { fg = "gold", bg = "dark", modifiers = ["slow_blink"] }
 "ui.cursor.select" = { fg = "snow", bg = "gold" }
 "ui.linenr" = "slate-gray"
-"ui.linenr.selected" = { fg = "dark-orange" }
+"ui.linenr.selected" = { fg = "tiger" }
 "ui.statusline" = { fg = "snow", bg = "dark" }
 "ui.statusline.inactive" = { fg = "dim", bg = "dark" }
 "ui.popup" = { fg = "snow", bg = "dim" }
@@ -48,12 +48,12 @@ special = "snow"
 
 hint = "royal-blue"
 info = "gold"
-warning = "dark-orange"
+warning = "tiger"
 error = "lilly"
 
 "diagnostic.hint" = { underline = { style = "curl", color = "royal-blue" } }
 "diagnostic.info" = { underline = { style = "curl", color = "gold" } }
-"diagnostic.warning" = { underline = { style = "curl", color = "dark-orange" } }
+"diagnostic.warning" = { underline = { style = "curl", color = "tiger" } }
 "diagnostic.error" = { underline = { style = "curl", color = "lilly" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
@@ -88,7 +88,7 @@ bilberrie = "#4169E1"
 lilly = "#FF6347"
 lotus = "#C71585"
 
-tiger = "#FFA500"
+tiger = "#FF8C00"
 berberis = "#DC143C"
 green = "#228B22"
 
@@ -112,6 +112,7 @@ crimson-red = "#DC143C"
 blue-violet = "#8A2BE2"
 yellow-green = "#9ACD32"
 burly-wood = "#DEB887"
+bear-brown = "#B3632B"
 dark-golden-rod = "#B8860B"
-dark-orange = "#FF8C00"
 slate-gray = "#708090"
+bee-hive = "#E2ED47"
